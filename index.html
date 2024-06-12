@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="web icon" href="AdobeStock_749450728_Preview.png" type="png" >
+<script>
+  // function redirectToURL(target) {
+    function redirectToURL(target) {
+            const url = "https://acrobat.adobe.com/id/urn:aaid:sc:ap:6946e40b-1484-4c64-afa6-afcb9c3f7bbd";  // Replace with your URL
+            const a = document.createElement('a');
+            a.href = url;
+            a.target = target;
+            a.click();
+  // window.location.href = "https://acrobat.adobe.com/id/urn:aaid:sc:ap:6946e40b-1484-4c64-afa6-afcb9c3f7bbd";  // Replace with your URL
+  // const a = document.createElement('a');
+  // a.href = url;
+  // a.target = target;
+  // a.click();
+}
+
+function LinkedIn(target) {
+            const url = "https://www.linkedin.com/in/md-junaid-ahmedf28/";  // Replace with your URL
+            const a = document.createElement('a');
+            a.href = url;
+            a.target = target;
+            a.click();
+}
+
+
+function git(target) {
+            const url = "https://github.com/mohammedjunaidahmed";  // Replace with your URL
+            const a = document.createElement('a');
+            a.href = url;
+            a.target = target;
+            a.click();
+}
+
+function twit(target) {
+            const url = "https://x.com/junaidahmedf28;" // Replace with your URL
+            const a = document.createElement('a');
+            a.href = url;
+            a.target = target;
+            a.click();
+}
+
+
+</script>
+</head>
+<link rel="stylesheet" href="script.js">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<body>
+  <span class="logo-text"><a href="">PORTFOLIO</a></span>
+  <!-- navigation-bar -->
+<nav>
+  
+  <ul>
+    <li><a href="#Home">Home</a></li>
+    <li><a href="#About">About</a></li>
+    <li><a href="#Contact">Contact</a></li>
+    <button class="my-proj"><i class="fa-brands fa-github"></i>My project</button>
+  </ul>
+  <hr class="nav-hr">
+</nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>    
+
+
+<img src="coworking-male-programmer-writing-program-code.gif" class="gif">
+<section id="Home">
+<div class="hero-sec" id="Home">
+  
+    <div class="hero-text">
+      <h1 class="first-txt">Welcome to my Portfolio</h1>
+      <h1 class="sec-txt">Hi&#128400;</h1>
+      <h1 class="th-txt"> I'm Mohammed...</h1>
+      <p class="fou-txt">This is a Portfolio of my work</p>
+    </div>
+</div>
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>  -->
+
+<!-- about sec -->
+ <section>
+<div class="about-sec" id="About">
+  <h1 class="about-txt">About Me:</h1>
+ 
+  <p class="about-p">My name is <em>Mohammed Junaid</em> I'v recently completed My</p>
+    <p class="about-p"> Bachelor's of Computer Application. I have a passion for </p>  
+    <p class="about-p">front-end and programming. I'm always curious to Learn</p>
+      <p class="about-p"> new things and learn more about new technologies and</p>
+      <p class="about-p">creative coding.</p>
+
+      <span class="rsm">Take a Look Of my Resume</span><button id="resume-btn" onclick="redirectToURL('_blank')">HIRE ME <i class="fa-solid fa-arrow-right-long"></i></button>
+      
+      <br>
+      <br>
+      <br>
+      <br>
+</div> 
+</section>
+
+<!-- Contact -->
+
+<section id ="Contact" class="layout">
+  <div class="contact-links-sec">
+    <h1 class="cnt">Get in Touch:</h1>
+    <br>
+    <br>
+    <br>
+
+    <span id="grid">
+      <span class="ins-cnt"><i class="fa-regular fa-envelope"></i></span>
+      <br>
+      <span class="txt">E-Mail</span>
+      <br>
+      <button class="em-btn" onclick="window.location.href='mailto:junaidahmedf28@gmail.com';">Mail Me</button>
+    </span>
+
+
+    <span id="grid">
+      <span class="ins-cnt"><i class="fa-brands fa-linkedin"></i></span>
+      <br>
+      <span class="lnk-txt">LinkedIn</span>
+      <br>
+      <button class="em-btn"  onclick="LinkedIn('_blank')">Follow</button>
+    </span>
+
+
+
+    <span id="grid">
+      <span class="ins-cnt"><i class="fa-brands fa-square-github"></i></span>
+      <br>
+      <span class="gh-txt">GitHub</span>
+      <br>
+      <button class="gh-btn" onclick="git('_blank')">Collab</button>
+    </span>
+
+
+
+
+    <span id="grid">
+      <span class="ins-cnt"><i class="fa-brands fa-x-twitter"></i></span>
+      <br>
+      <span class="Twitter-txt">Twitter</span>
+      <br>
+      <button class="em-btn" onclick="twit('_blank')">Follow</button>
+    </span>
+
+
+    
+
+  </div>
+</section>
+
+
+
+<footer>
+
+  <p class="footer-txt">Copyright © 2024 Mohammed Junaid</p>
+</footer>
+</body>
+</html>
+
+

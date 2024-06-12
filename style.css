@@ -1,0 +1,398 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+span{
+  font-size: 25px;
+  float: left;
+  padding: 10px;
+  padding-left: 17px;  
+  margin-top: 20px;
+  margin-left: 20px;
+}
+a{
+  
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+}
+
+nav{
+  color: black;
+  float: right;
+  margin-top: 14px;
+  
+}
+ul{
+  list-style: none;
+  position: relative;
+  display: flex;
+  padding-right: 20px;
+  font-size: larger;
+}
+
+li a{
+  padding: 12px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+  transition: 0.5s;
+  
+
+
+}
+li a:hover{
+  color: blue;
+}
+
+button {
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  /* margin-top: px; */
+  height: 25px;
+  width: 115px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition: 0.5s;
+  box-shadow: rgba(0, 0, 0,1) 0px 2px 5px;
+}
+
+button:hover{
+  background-color:whitesmoke ;
+  color:  black;
+
+}
+
+.my-proj{
+  top:6%;
+  padding-top: 2px;
+  margin-right: 3px;
+  font-size: 15px;
+}
+.fa-github{
+  padding-right:10px;
+  margin-top: 2px;
+  
+}
+
+hr{
+  border: 2px solid;
+  margin-top: 8px;
+}
+
+input{
+  height: 20px;
+  margin-top: 12px;
+}
+
+/* hero-sec */
+
+.hero-sec{
+  margin-top: 80px;
+  margin-left: 30px;
+  height: 400px;
+  width: 950px;
+  border: 5px solid black;
+  border-radius: 70px;
+  justify-content: center;
+  display: flex;
+  box-shadow: rgba(0, 0, 0,0.5) 0px 20px 28px;
+  
+}
+
+.hero-sec:hover{
+  animation-name: effect3d;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+
+.hero-text{
+  padding-left: 15px;
+  padding-top: 70px;
+  justify-content: center;
+}
+
+
+
+@keyframes effect3d {
+  to {
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+      0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+      0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+      0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+      0 20px 20px rgba(0, 0, 0, 0.15);
+  }
+}
+
+
+.gif{
+  margin-top: 40px;
+  
+}
+
+
+
+.first-txt{
+  font-size: 80px;
+}
+
+.sec-txt{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  padding-left: 22px;
+  padding-top: 10px;
+}
+
+.th-txt{
+  padding-left: 22px;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fou-txt{
+  padding-left: 22px;
+  font-size: 20px;
+  padding-top: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.gif{
+  float: right;
+}
+
+
+
+/* about-sec */
+
+
+.about-sec{
+  color: rgb(3, 3, 93);
+  font-size: 25px;
+  padding-left: 25px;
+  padding-top: 90px;
+  background-color: #a59df8;
+  height:550px;
+  width: 100%;
+  border: #a59df8 5px solid;
+}
+
+.about-txt{
+  padding-left: 25px;
+  /* text-decoration: underline 2px solid black; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-p{
+  padding-left: 50px;
+  padding-top: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 10px;
+}
+
+/* resume-sec */
+
+
+.rsm{
+  padding-top: 40px;
+  font-size: larger;
+  padding-left: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#resume-btn{
+  margin-top: 50px;
+  border-radius: 15px;
+  height: 45px;
+  width: 110px;
+  display: flex;
+  background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  border: black 3.5px solid;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+  color: black;
+  text-align: center;
+  padding-left: 10px;
+}
+
+#resume-btn:hover{
+  box-shadow: 0px 5px 10px 1px rgb(3, 3, 93);
+}
+
+.fa-arrow-right-long{
+  size: 15px;
+  margin-left: 8px;
+  margin-top: 6px;
+}
+
+.cnt{
+  /* padding-left: 55px; */
+  /* text-decoration: underline 2px solid black; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 70px;
+  font-size: 41px;
+  color: rgb(3, 3, 93);
+
+}
+.contact-links-sec{
+  background-color: #b2e8ed;
+  height: 580px;
+  width: 100%;
+  position: relative;
+  padding-left: 60px;
+
+
+
+}
+
+#grid{
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  background-color: #b2e8ed;
+  border: rgb(3, 3, 93) 2px solid;
+  height: 290px;
+  width: 190px;
+  display: block;
+  box-shadow: 0px 0px 10px 1px rgb(3, 3, 93);
+  
+  
+}
+
+.ins-cnt{
+  justify-content: center;
+  display: inline-block;
+  left: 50%;
+  
+}
+
+.fa-envelope{
+  font-size: 65px;
+  display: inline-block;
+  margin-top: 10px;
+  left: 50%;
+  margin-left: 5px;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.em-btn{
+  background-color: rgb(2, 2, 68);
+  border: black 3px solid;
+  height: 40px;
+  width: 120px;
+  margin-left: 17px;
+  margin-top: 15px;
+  top: 9%;
+  padding-top: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-seriftxt;
+}
+
+.txt{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 25px;
+
+
+}
+
+
+
+.fa-linkedin{
+  font-size: 65px;
+  display: inline-block;
+  margin-top: 10px;
+  left: 50%;
+  margin-left: 10px;
+  text-align: center;
+  justify-content: center; 
+}
+
+
+.lnk-txt{
+  margin-right: 30px;
+  padding-right: 45px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fa-square-github{
+  font-size: 63px;
+  display: inline-block;
+  margin-top: 8.5px;
+  margin-left: 15px;
+  text-align: center;
+  justify-content: center; 
+
+}
+
+
+.gh-txt{
+  margin-top: 15px;
+  padding-top: 19px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 23px;
+}
+
+.gh-btn{
+  background-color: rgb(2, 2, 68);
+  border: black 3px solid;
+  height: 40px;
+  width: 120px;
+  margin-left: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-seriftxt;
+  padding-top: 11px;
+}
+
+
+
+.fa-x-twitter{
+  font-size: 63px;
+  display: inline-block;
+  margin-top: 8.5px;
+  margin-left: 10px;
+  text-align: center;
+  justify-content: center;
+
+}
+
+
+.Twitter-txt{
+  margin-top: 15px;
+  padding-top: 19px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 23px; 
+}
+
+footer{
+  height: 110px;
+  width: 100%;
+  background-color: black;
+  border: black 2px solid;
+}
+
+.footer-txt{
+  color: rgb(228, 218, 218);
+  font-family:'Courier New', Courier, monospace ;
+  font-weight: 100;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
